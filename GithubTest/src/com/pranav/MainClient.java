@@ -5,26 +5,26 @@ public class MainClient {
 	public static void main(String[] args) {
 		
         Pig myPig = new Pig();  // Create a Pig object
-        int x = add(9,4);
+        int x = add(9,5);
         
         System.out.println(x);
         
-        int y = divide(9,4);
+        int y = divide(9,5);
         
         System.out.println(y);
 	
 	}
 	
-	private static int add(int i, int j) {
+	private static int add(int i, int z) {
 		// add method
-		int k = i + j;
+		int k = i + z;
 		
 		return k;
 	}
 	
-	private static int divide(int i, int j) {
+	private static int divide(int i, int z) {
 		// add method
-		int k = i / j;
+		int k = i / z;
 		
 		return k;
 	}
