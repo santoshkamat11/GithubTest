@@ -6,7 +6,7 @@ public class Pig implements Animal{
 	    // The body of animalSound() is provided here
 	    System.out.println("The pig says: wee wee");
 	  }
-	  public void lazysleep() {
+	  public void sleep() {
 	    // The body of sleep() is provided here
 	    System.out.println("lazy Zzz");
 	  }
