@@ -8,7 +8,7 @@ public class Pig implements Animal{
 	  }
 	  public void sleep() {
 	    // The body of sleep() is provided here
-	    System.out.println("lazy Zzz");
+	    System.out.println("lazy Zzzzzz");
 	  }
 
 }

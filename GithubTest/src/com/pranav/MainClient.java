@@ -8,12 +8,23 @@ public class MainClient {
         int x = subtract(9,4);
         
         System.out.println(x);
+        
+        int y = divide(9,4);
+        
+        System.out.println(y);
 	
 	}
 	
 	private static int subtract(int i, int j) {
 		// add method
 		int k = i - j;
+		
+		return k;
+	}
+	
+	private static int divide(int i, int j) {
+		// add method
+		int k = i / j;
 		
 		return k;
 	}
