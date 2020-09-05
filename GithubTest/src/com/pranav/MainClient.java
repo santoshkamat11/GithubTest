@@ -10,9 +10,7 @@ public class MainClient {
 		
 		System.out.println(x);
 		
-		int y = subtract(9,4);
 		
-		System.out.println(y);
 		
 	}
 
@@ -25,11 +23,6 @@ public class MainClient {
 		return k;
 	}
 
-	private static int subtract(int i, int j) {
-		// add method
-		int k = i - j;
-		
-		return k;
-	}
+	
 
 }
