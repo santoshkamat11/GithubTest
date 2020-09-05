@@ -22,9 +22,9 @@ public class MainClient {
 		return k;
 	}
 	
-	private static int divide(int i, int n) {
+	private static int divide(int i, int r) {
 		// add method
-		int k = i / n ;
+		int k = i / r;
 		
 		return k;
 	}
