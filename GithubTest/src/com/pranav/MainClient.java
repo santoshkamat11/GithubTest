@@ -6,8 +6,10 @@ public class MainClient {
 		
         Pig myPig = new Pig();  // Create a Pig object
 		
-		int y = subtract(9,4);
-		
+        int x = add(9,4);
+        System.out.println(x);
+        
+        int y = subtract(9,4);
 		System.out.println(y);
 		
 		
@@ -16,7 +18,13 @@ public class MainClient {
 
 	
 		
-	
+	private static int add(int i, int j) {
+		// add method
+		int k = i + j;
+		
+		return k;
+	}
+
 	private static int subtract(int i, int j) {
 		// add method
 		int k = i - j;
