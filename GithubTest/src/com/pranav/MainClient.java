@@ -6,11 +6,9 @@ public class MainClient {
 		
         Pig myPig = new Pig();  // Create a Pig object
         int x = add(9,4);
-       
-		System.out.println(x);
-		
-		
-		
+        
+        System.out.println(x);
+	
 	}
 	
 	private static int add(int i, int j) {
