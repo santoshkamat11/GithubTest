@@ -7,6 +7,10 @@ public class MainClient {
 		Pig myPig = new Pig();  // Create a Pig object
 	    myPig.animalSound();
 	    myPig.sleep(); 
+		
+		for(int i = 0 ; i<= 5 ; i++) {
+	    	System.out.println(i);
+	    }
 
 	}
 
